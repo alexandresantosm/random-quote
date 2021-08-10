@@ -9,6 +9,8 @@ describe("Testing Home.tsx", () => {
     const speakerEl = screen.getByText(/Speaker test/i);
     const buttonEl = screen.getByRole("button");
 
+    expect(quoteEl).toBeInTheDocument();
+    expect(speakerEl).toBeInTheDocument();
     expect(buttonEl).toBeInTheDocument();
   });
 });
