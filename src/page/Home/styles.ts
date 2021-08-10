@@ -17,35 +17,3 @@ export const Content = styled.div`
   flex-direction: column;
   justify-content: center;
 `;
-
-export const QuoteText = styled.p`
-  color: #fff;
-  font-size: 1.5rem;
-  margin-bottom: 1rem;
-`;
-
-export const SpeakerText = styled(QuoteText)`
-  font-size: 1rem;
-  margin-bottom: 1rem;
-  align-self: flex-end;
-  margin-bottom: 2rem;
-`;
-
-export const NewQuoteButton = styled.button`
-  width: 12rem;
-  background-color: gray;
-  color: #fff;
-  font-size: medium;
-  font-weight: bold;
-  padding: 1rem 0.5rem;
-  align-self: center;
-  box-shadow: 2px 2px 2px #fff;
-  transition: all 0.5s;
-
-  &:hover {
-    background-color: #fff;
-    color: gray;
-    box-shadow: 2px 2px 2px gray;
-    filter: brightness(0.9);
-  }
-`;

@@ -1,17 +1,15 @@
-import {
-  Container,
-  Content,
-  QuoteText,
-  SpeakerText,
-  NewQuoteButton,
-} from "./styles";
+import { NewQuoteButton } from "../../components/atoms/NewQuoteButton";
+import { Quote } from "../../components/atoms/Quote";
+import { Speaker } from "../../components/atoms/Speaker";
+
+import { Container, Content } from "./styles";
 
 export const Home = (): JSX.Element => {
   return (
     <Container>
       <Content>
-        <QuoteText>Never Stop Learning</QuoteText>
-        <SpeakerText>- Autor desconhecido</SpeakerText>
+        <Quote>Never Stop Learning</Quote>
+        <Speaker>Autor desconhecido</Speaker>
         <NewQuoteButton>Nova citação</NewQuoteButton>
       </Content>
     </Container>
