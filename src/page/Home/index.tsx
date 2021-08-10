@@ -1,3 +1,9 @@
 export const Home = (): JSX.Element => {
-  return <div></div>;
+  return (
+    <>
+      <p>Quote test</p>
+      <span>Speaker test</span>
+      <button>Test</button>
+    </>
+  );
 };
