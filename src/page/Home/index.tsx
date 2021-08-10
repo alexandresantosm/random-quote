@@ -1,6 +1,5 @@
 import { NewQuoteButton } from "../../components/atoms/NewQuoteButton";
-import { Quote } from "../../components/atoms/Quote";
-import { Speaker } from "../../components/atoms/Speaker";
+import { ContentQuote } from "../../components/molecules/ContentQuote";
 
 import { Container, Content } from "./styles";
 
@@ -8,8 +7,10 @@ export const Home = (): JSX.Element => {
   return (
     <Container>
       <Content>
-        <Quote>Never Stop Learning</Quote>
-        <Speaker>Autor desconhecido</Speaker>
+        <ContentQuote
+          quote="Never Stop Learning"
+          speaker="Autor desconhecido"
+        />
         <NewQuoteButton>Nova citação</NewQuoteButton>
       </Content>
     </Container>
